@@ -62,4 +62,5 @@ end
 
 puts "la persona selecionada #{personas.sample}" #metodo sample, sirve para escoger un elemnto al azar
 
-
+hola = Arrays = ["jj","nesty",true]
+puts hola[0]

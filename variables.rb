@@ -33,8 +33,6 @@ puts "mi edad es de #{edades} y multiplicado por 2 el resultado es: #{edades * 2
 
 
 # Entradas para El Circus Maximus
-print "Ingrese su nombre: "
-nombre = gets.chomp    # cadenas
 print "Ingrese su edad: "
 age = gets.chomp.to_i   # valores enteros
 

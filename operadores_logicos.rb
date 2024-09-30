@@ -54,3 +54,22 @@ puts (5.odd?) #odd pra numeros impares
 
 puts (4.odd?)
 
+#comvertir numeros en Cadena
+num = 20
+puts ("mi edad es de " + num.to_s)
+
+numero1 = -30 
+puts numero1.abs() # con el metodo abs me dira el valor absoluto de numero1
+
+# para numeros decimales se utiliza round() este metodo redondeara el numero
+numero2 = 23.5065 
+puts numero2.round() 
+
+# tenemos otros metodos como floor() dame el numero mas bajo, ceil() dame el numero mas alto
+
+#clase
+puts Math.sqrt(36) # aqui nos dara la raiz cuadrada de un numero, en este caso el 36
+puts Math.log(1) #podemos utilizar tambien la funcion log, ese nos dira el registro de puntos
+
+puts 10 / 7.0
+
